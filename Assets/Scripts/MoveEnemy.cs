@@ -77,7 +77,7 @@ public class MoveEnemy : MonoBehaviour
                 StartCoroutine(Agro());
             }
             float shortestDistance = Vector3.Distance(transform.position, _target.transform.position);
-            if (shortestDistance > 15 || Physics2D.Linecast(transform.position, _target.transform.position, 7))
+            if (shortestDistance > 15)
             {
                 DEAgro();
             }

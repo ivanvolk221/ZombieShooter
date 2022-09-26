@@ -7,16 +7,17 @@ TagManager:
   - Wall
   - Enemy
   - Spawner
+  - EnemyBack
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - EnemyHead
   - Water
   - UI
-  - 
-  - 
-  - 
+  - BackBody
+  - Player
+  - Enemy
   - 
   - 
   - 
